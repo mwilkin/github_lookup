@@ -7,8 +7,13 @@ $(document).ready(function(){
     var userNameFind = $('#userName').val();
     $('#UserName').text("");
     $('#showUserName').empty();
+    $('#showActualName').empty();
+    $('#showUserLocation').empty();
     $('#showRepoNumber').empty();
     $('#showRepoList').empty();
+    $('#showRepoImg').empty();
+    $('#showFollowers').empty();
+    $('#showFollowing').empty();
 
     currentSearch.getUserInfo(userNameFind);
   });
