@@ -1,10 +1,11 @@
-var Search = require('./../js/search.js').searchModule;
+
+var SearchGit = require('./../js/search.js').searchgitModule;
 
 $(document).ready(function(){
-  var currentSearch = new Search();
+  var currentSearch = new SearchGit();
   $('#userNameSubmit').click(function() {
-    $('#showUserName').text("");
     var userNameFind = $('#userName').val();
-    currentSearch.getUserName();
+    $('#UserName').text("");
+    currentSearch.getUserInfo(userNameFind);
   });
 });
