@@ -33,7 +33,7 @@ _The goal of this independent project is to create a functional website where a 
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+_The search results are limited to only 30 per request._
 
 ## Support and contact details
 
@@ -41,14 +41,10 @@ _If you any issues or have questions, ideas or concerns.  Please contact me at <
 
 ## Technologies Used
 
-* _Ruby_
 * _JavaScript_
 * _CSS_
 * _HTML_
-* _Sinatra_
-* _Capybara_
-* _Postgres_
-* _SQL_
+
 
 
 

@@ -6,6 +6,10 @@ $(document).ready(function(){
   $('#userNameSubmit').click(function() {
     var userNameFind = $('#userName').val();
     $('#UserName').text("");
+    $('#showUserName').empty();
+    $('#showRepoNumber').empty();
+    $('#showRepoList').empty();
+
     currentSearch.getUserInfo(userNameFind);
   });
 });
