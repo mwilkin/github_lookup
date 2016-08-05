@@ -12,13 +12,17 @@
   </head>
   <body>
     <div class="container">
-      <h2>Search Github by Username</h2>
-      <hr>
-      <label for="userName">Enter a username:</label>
-      <input type="text" id="userName" placeholder="Github username">
-      <button class="btn btn-success" id="userNameSubmit">Submit</button>
-      <hr>
-      <div>
+      <div class="jumbotron" id="announcement">
+        <h1>Search Github by Username</h1>
+      </div>
+      <div id="form">
+        <hr>
+        <label id="input" for="userName">Enter a username:</label>
+        <input type="text" id="userName" placeholder="Github username">
+        <button class="btn btn-success" id="userNameSubmit">Submit</button>
+        <hr>
+      </div>
+      <div id="results">
         <h2><span id="showUserName"></span></h2>
         <h3><span id="showRepoNumber"></span></h3>
         <ol id="showRepoList"></ol>
