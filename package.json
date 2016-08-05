@@ -1,0 +1,33 @@
+{
+  "name": "github_lookup",
+  "version": "1.0.0",
+  "description": "search github by username",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower-files": "^3.13.3",
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Wilkin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/mwilkin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/github.com/mwilkin/issues"
+  },
+  "homepage": "https://github.com/github.com/mwilkin#readme"
+}
