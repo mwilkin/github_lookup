@@ -33,7 +33,7 @@ _The goal of this independent project is to create a functional website where a 
 
 ## Known Bugs
 
-_The search results are limited to only 30 per request._
+_No known bugs at this time._
 
 ## Support and contact details
 
